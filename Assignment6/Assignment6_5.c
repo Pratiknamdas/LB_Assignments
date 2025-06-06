@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+void Table(int iNo)
+{
+    if(iNo < 0)
+    {
+        iNo = -iNo;
+    }
+    int iCnt = 0,iTable = 1;
+    for(iCnt =10; iCnt >= 1; iCnt--)
+    {
+        iTable = iNo * iCnt;
+        printf("%d\t",iTable );
+    }
+    printf("\n");
+}
+
+int main()
+{
+    int iValue = 0;
+    printf("Enter Number: \n");
+    scanf("%d",&iValue);
+
+    Table(iValue);
+
+    return 0;
+}
