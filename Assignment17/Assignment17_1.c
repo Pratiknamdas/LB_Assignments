@@ -8,18 +8,14 @@ void Pattern(int iRow, int iCol)
     {
         for(j = iCol; j >= 1; j--)
         {
-            if(i == j)
+            if(i <= j)
             {
-            printf("#\t");
+            printf("*\t");
 
-            }
-            else if(i < j)
-            {
-                printf("@\t");
             }
             else
             {
-                printf("*\t");
+                printf("#\t");
             }
         }
         printf("\n");

@@ -47,7 +47,7 @@ int main()
         scanf("%d",&p[iCnt]);
     }
 
-    Range(p, iLength,iValue1,iValue2);
+    Range(p, iLength);
 
 
     free(p);

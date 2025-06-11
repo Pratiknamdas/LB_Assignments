@@ -8,7 +8,7 @@ int CountEven(int Arr[], int iSize)
     {
         if((Arr[iCnt] % 2) == 0)
         {
-            iEFreq++;
+            iEFreq = ;
         }
         else
         {
